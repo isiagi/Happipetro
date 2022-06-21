@@ -3,6 +3,9 @@
     color: #fff;
     min-height: 13vh;
     display: grid;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 
 .nav__wrapper {
