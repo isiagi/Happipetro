@@ -1,0 +1,18 @@
+.join__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--bg_main);
+    color: #fff;
+    flex-wrap: wrap;
+    min-height: 20vh;
+}
+
+.btn__join {
+    border: 2px solid #fff;
+    background-color: var(--bg_main);
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
