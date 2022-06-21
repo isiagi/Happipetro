@@ -1,0 +1,63 @@
+.service__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.service__grid__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.service__grid__item h1 {
+  font-size: 3em;
+}
+
+.service__grid__ite {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/images/1.png");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service__grid__it {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/images/2.png");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service__grid__i {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/images/3.jpg");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service__item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.service__item > h2 {
+  color: #fff;
+  font-size: 2em;
+}
+
+.service__item span {
+  background: var(--bg_main);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.service__item span:hover {
+  background: var(--bg_secondary);
+}
