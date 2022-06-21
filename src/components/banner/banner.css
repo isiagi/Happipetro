@@ -1,0 +1,23 @@
+.banner__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50vh;
+    flex-wrap: wrap;
+}
+
+.banner__one {
+    max-width: 300px;
+}
+
+.banner__one > h1 {
+    font-size: 3em;
+}
+
+.banner__two {
+    max-width: 800px;
+}
+
+.banner__two p {
+    color: var(--text_color);
+}
