@@ -1,0 +1,9 @@
+.carousel__div {
+    height:350px;
+    margin: 0 10px;
+}
+
+.carousel__div > img {
+    height: 100%;
+    object-fit: cover;
+}
