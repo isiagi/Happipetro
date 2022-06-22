@@ -1,0 +1,65 @@
+.contact__head {
+  min-height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/images/6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.contact__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  place-items: center;
+  padding: 3rem 0;
+}
+
+.contact__icon {
+    color: var(--bg_main);
+    font-size: 1.5em;
+}
+
+.form__row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
+
+.form__row > input {
+  width: 45%;
+  outline: none;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1em;
+  border: none;
+  background-color: #F0F0F0;
+}
+
+.textarea textarea {
+  width: 90%;
+  max-width: 100%;
+  outline: none;
+  resize: none;
+  border: none;
+  background-color: #F0F0F0;
+}
+
+.contact__sec1 {
+    background-color: #F0F0F0;
+    max-width: 400px;
+    height: 100%;
+    padding: 3rem;
+}
+
+.form__btn button {
+    background-color: var(--bg_main);
+    padding: 0.7rem;
+    margin-top: 0.7rem;
+    color: #fff;
+    outline: none;
+    border: none;
+  }
