@@ -2,7 +2,7 @@ import Banner from "../components/banner/Banner";
 import Hero1 from "../components/hero1/Hero1";
 import Img from "../components/imgM/Img";
 import Join from "../components/join/Join";
-import Learn from "../components/learn/Learn";
+// import Learn from "../components/learn/Learn";
 import MapComponent from "../components/map/map";
 import Service from "../components/services/Service";
 
@@ -13,7 +13,7 @@ const HomePage = () => {
       <Banner />
       <Img />
       <Service />
-      <Learn />
+      {/* <Learn /> */}
       <MapComponent />
       <Join />
     </div>
