@@ -1,0 +1,39 @@
+.gallery__head {
+  min-height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/images/6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.gallery__intro {
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+
+.gallery__intro span {
+  padding: 15px;
+  background-color: var(--bg_main);
+  color: #fff;
+}
+
+.gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 0px 10px;
+  margin-bottom: 10vh;
+}
+
+.gallery__grid img {
+    min-height: 350px;
+    object-fit: cover;
+    cursor: pointer;
+}
