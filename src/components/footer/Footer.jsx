@@ -1,3 +1,6 @@
+import { GrMapLocation } from "react-icons/gr";
+import { AiOutlineMail } from "react-icons/ai";
+import { CgPhone } from "react-icons/cg";
 import "./footer.css";
 
 const Footer = () => {
@@ -6,9 +9,10 @@ const Footer = () => {
       <div className="footer__wrapper">
         <div className="footer__container">
           <div>
-            <h1>Happi Petro</h1>
-            <p>hakakka@gmail.com</p>
-            <p>+256777797887777</p>
+            <h2 style={{color: '#FFB800'}}>Happi Petro</h2>
+            <p><CgPhone className="contact__icon"/> +256 785988864</p>
+            <p><AiOutlineMail className="contact__icon"/> info@happipetro.com</p>
+            <p><GrMapLocation className="contact__icon"/> Ham Towers,Level 3, RM HT28<br /> Opp Makerere Main Gate, Kampala</p>
           </div>
           <div>
             <h2>Comapany</h2>

@@ -6,7 +6,7 @@ const Service = () => {
       <div className="service__grid">
         <div className="service__grid__item">
           <h1>Our Services</h1>
-          <p>
+          <p style={{maxWidth: '500px', color: '#6C6C6C'}}>
             We exceed our customer's expectations in quality, delievery and cost
             through continuous improvement and customer interaction
           </p>

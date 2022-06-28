@@ -3,8 +3,13 @@ import {MdOutlineMarkEmailRead} from 'react-icons/md'
 import {BsFillTelephoneOutboundFill} from 'react-icons/bs'
 import {HiOutlineLocationMarker} from 'react-icons/hi'
 import "./contact.css";
+import React from "react";
 
 const Contact = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="contact__container">
       <div className="contact__head">

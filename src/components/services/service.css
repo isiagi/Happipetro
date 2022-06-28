@@ -61,3 +61,10 @@
 .service__item span:hover {
   background: var(--bg_secondary);
 }
+
+@media screen and (max-width: 991px) {
+  .service__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+}
