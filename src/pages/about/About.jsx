@@ -53,7 +53,6 @@ const About = () => {
         </ul>
       </div>
       <Service />
-      <Join />
     </div>
   );
 };

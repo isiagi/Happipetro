@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div className="banner__container">
       <div className="banner__one">
-        <h1>The biggest supplier in the country</h1>
+        <h1 style={{color: '#FFB800'}}>The biggest supplier in the country</h1>
       </div>
       <div className="banner__two">
         <p>

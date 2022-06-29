@@ -6,6 +6,7 @@ import Join from "../components/join/Join";
 import Learn from "../components/learn/Learn";
 import MapComponent from "../components/map/map";
 import Service from "../components/services/Service";
+import Why from "../components/why/Why"
 import Team from "./team/Team";
 
 const HomePage = () => {
@@ -18,9 +19,10 @@ const HomePage = () => {
       <Hero1 />
       <Banner />
       <Img />
+      <Why />
       <Service />
-      <Learn />
       <Team />
+      <Learn />
       <MapComponent />
       <Join />
     </div>

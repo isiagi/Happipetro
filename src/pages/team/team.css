@@ -1,6 +1,6 @@
 .team__container {
   background-color: whitesmoke;
-  min-height: 70vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,6 +14,7 @@
   gap: 10px;
   background-color: #fff;
   padding: 10px;
+  margin-bottom: 3.5rem;
 }
 
 .team__loop {
@@ -25,7 +26,7 @@
 }
 
 .team__loop h4 {
-  color: var(--bg_main);
+  color: rgb(83, 83, 177);
 }
 
 .team__img img {
@@ -48,5 +49,5 @@
 }
 
 .team__wrapper h1 {
-  color: var(--bg_main);
+  color: rgb(83, 83, 177);
 }

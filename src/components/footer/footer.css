@@ -13,11 +13,13 @@
 }
 
 .footer__last {
-    background-color: #FFFFFF7D;
+    background-color: rgb(44, 38, 38);
     text-align: center;
+    min-height: 7vh;
+    color: #fff;
 }
 
 .contact__icon {
-  font-size: 3rem;
-  color: #FFF !important;
+  font-size: 1.6rem !important;
+  color: var(--bg_secondary) !important;
 }

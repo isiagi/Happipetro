@@ -1,5 +1,5 @@
 .nav__container {
-  background: var(--bg_main);
+  background: rgb(83, 83, 177);
   color: #fff;
   min-height: 13vh;
   display: grid;

@@ -47,6 +47,10 @@
   font-size: 1.3em;
 }
 
+.terms {
+  padding-block: 4rem;
+}
+
 .terms > h3 {
   text-align: center;
   font-size: 1.5em;
